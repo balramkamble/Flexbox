@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+}
+
+
+/* body {
+                    font-size: 2rem;
+                    height: 100vh;
+                    display: flex;
+                    header {
+                        background: cornflowerblue;
+                        padding-top: 3rem;
+                        padding-bottom: 3rem;
+                    }
+                    footer {
+                        background: rgb(48, 61, 85);
+                        padding-top: 3rem;
+                        padding-bottom: 3rem;
+                    }
+                    .main-content {
+                        display: flex;
+                        flex-grow: 1;
+                        .left-side {
+                            background: chocolate;
+                            padding-top: 3rem;
+                            flex-grow: 1;
+                            flex-shrink: 1;
+                        }
+                        .content {
+                            background: crimson;
+                            padding-top: 3rem;
+                            flex-grow: 2;
+                            flex-shrink: 2;
+                        }
+                        .right-side {
+                            background: chocolate;
+                            padding-top: 3rem;
+                            flex-grow: 1;
+                            flex-shrink: 1;
+                        }
+                    }
+                }
+                    */
+
+section.other {
+    background: darkgrey;
+    display: flex;
+    flex-direction: column;
+    .one {
+        background: chartreuse;
+        height: 20vh;
+    }
+    .inner {
+        display: flex;
+        height: 60vh;
+        .two {
+            background: chocolate;
+            flex-grow: 1;
+        }
+        .three {
+            background: crimson;
+            flex-grow: 2;
+        }
+        .four {
+            background: cornflowerblue;
+            flex-grow: 1;
+        }
+    }
+    .five {
+        background: darkgreen;
+        height: 20vh;
+    }
+}
